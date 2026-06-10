@@ -3,3 +3,8 @@
 #else
 #include <sys/socket.h>
 #endif
+
+class HttpHandler
+{
+    
+};
