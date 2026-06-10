@@ -1,0 +1,5 @@
+if(CMAKE_SYSTEM_NAME STREQUAL "Windows")
+    define(WINDOWS_LIKE)
+else()
+    define(UNIX_LIKE)
+endif()
